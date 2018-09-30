@@ -6,8 +6,7 @@ module.exports = function makeExchange(currency) {
     let obj = {};
 if( a <= 0 ) {
   return {};
-  //console.log( obj);
-}
+  }
 else if( a > 10000 ) {
 obj.error = "You are rich, my friend! We don\'t have so much coins for exchange";
 }
