@@ -10,12 +10,10 @@ if( a <= 0 ) {
 }
 else if( a > 10000 ) {
 obj.error = "You are rich, my friend! We don\'t have so much coins for exchange";
-console.log( obj.error );
 }
 else {
 const h = Math.floor(a/50);
   if(h!=0){obj.H = h;}
-console.log( h );
 let x = a % 50;
 const q = Math.floor(x/25);
    if(q!=0){obj.Q = q;} 
@@ -29,7 +27,6 @@ let x1 = z % 5;
 const p = Math.floor(x1/1);
    if(p!=0){obj.P = p;} 
 let x2 = x1 % 1;
-console.log( obj);
 }
 return obj;
 }
